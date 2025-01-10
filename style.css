@@ -8,7 +8,11 @@
 
 body {
   font-family: Arial, sans-serif;
-  background: linear-gradient(135deg, #a1f4ff, #29a8e3);
+  /*background: linear-gradient(135deg, #a1f4ff, #29a8e3);*/
+  background-image: url(bg_green.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,7 +20,7 @@ body {
 }
 
 .login-container {
-  background-color: #fff;
+  background-color: #ffffff86;
   border-radius: 10px;
   padding: 30px;
   width: 350px;
