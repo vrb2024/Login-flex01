@@ -23,7 +23,7 @@ body {
   background-color: #ffffff86;
   border-radius: 10px;
   padding: 30px;
-  width: 350px;
+  width: 450px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   display: flex;
   flex-direction: column;
@@ -44,6 +44,7 @@ body {
 
 .form-group {
   margin-bottom: 15px;
+  position: relative; 
 }
 
 .form-group label {
@@ -56,9 +57,27 @@ body {
 .form-group input {
   width: 100%;
   padding: 10px;
+  padding-left: 15px;
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 16px;
+}
+
+.form-group button {
+  position: absolute;
+  right: 10px; /
+  top: 60%;
+  transform: translateY(30%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: #333;
+  padding: 0;
+}
+
+.form-group button:hover {
+  color: #555;
 }
 
 .login-button {
@@ -73,7 +92,7 @@ body {
 }
 
 .login-button:hover {
-  background-color: #982222;
+  background-color: #b92626;
 }
 
 .footer {
@@ -89,4 +108,9 @@ body {
 
 .footer a:hover {
   text-decoration: underline;
+}
+
+.material-icons {
+  vertical-align: middle;
+  pointer-events: none;
 }
